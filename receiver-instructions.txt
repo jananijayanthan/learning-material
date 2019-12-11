@@ -1,0 +1,43 @@
+Pip install virtualenv
+Cd my project/
+Virtualenv venv –system-site-packages
+
+Deactivate environment
+
+Go into gitignore and add venv
+
+Pip3 install -r requirements.txt
+
+//SORT OUT GOOGLE CREDENTIALS
+First download official google cloud sdk 
+https://cloud.google.com/sdk/docs/quickstart-macos
+
+in folder where google sdk is, run the google-cloud-sdk/install.sh and say yes to any prompts
+
+type gcloud -v to verify you have access
+
+run gcloud so it will be available globally on your dev environment
+
+activate environment again
+
+Then run the following command in the receiver directory 
+Export GOOGLE_APPLICATION_CREDENTIALS =’/path/filename.json’ 
+//THE PATH SHOULD BE WHERE YOUR JSON CREDENTIALS ARE STORED ON YOUR COMP –NEED TO GO TO SERVICE ACCOUNT UNDER E-PLUS-INFRASTRUCTURE AND SAVE TO LOCATION.
+
+In init.sh replace path for key file and credentials to the path to the json file for the account. 
+Have init.sh and json in repository where receiver is, e-plus payments receiver
+
+If needed run chmod +x filename (execute permissions)
+Then run init.sh 
+
+Export FLASK_APP=receiver.py
+Flask run 
+
+If doesn’t work do
+Env FLASK_APP=receiver.py python3 -m flask run (all on 1 command)
+
+
+Activate virtual environment inside the correct directory
+Redo google credentials inside the virtual env 
+
+thasi1995@hotmail.co.uk
