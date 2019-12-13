@@ -1,0 +1,187 @@
+Lecture 2
+
+There are practice questions to go through so have a look at them 
+
+Exam focusses mainly on waterfall and agile methodologies. You’ll be given a scenario and will need to know what one to use 
+
+The artefacts you produce at the lower level design are a lot closer to the code. 
+
+Test Documents needed: 
+
+- Test plan - something that is written as a formal document that informs the test process. What you’re going to test, what features, what level 
+- Test case 
+Developers do not tend to deal with this as much. 
+
+
+DEPLOYMENT 
+
+- Delivery to the customer for their use 
+- BETA testing 
+- Any changes? 
+- Changes applied and bus fixed - final deployment
+
+DEPLOYMENT MODELS 
+- Big Bang implementation - don’t have to maintain two systems. Risky if testing has not been done to the correct level (Lloyds TSB issues)
+- Parallel running - two systems running at once, safe and more expensive. Can be difficult if both applications are looking at different databases 
+- Pilot implementation - when you have a specific part of the application being piloted and can see how it goes.ce
+- Phased implementation - introduce high priorities first
+
+MAINTENANCE 
+
+All activities that make a software system available for use post deployment 
+- Corrective
+- Adaptive 
+- Perfective 
+- Preventative 
+
+Relationship with other disciplines: 
+Example roles: 
+- Sponsors 
+- Product owners 
+- Business analysts
+- Project management 
+- Programming, testing 
+- Service management change and configuration management 
+
+The four variables that software development methodologies aim to control: 
+- Features 
+- Cost 
+- Time 
+- Quality 
+Produce useful software as quickly as possible 
+
+Development methodologies 
+
+Linear approaches. - follow SDLC stages in a defined order: 
+- Waterfall 
+- V-model 
+- Incremental 
+
+Evolutionary approaches - development through iteration 
+- Iterative eg agile 
+- Spiral 
+
+Waterfall: 
+- Not incremental 
+- No feedback 
+- If requirements change there is no time for input 
+- For small projects its fine if requirements are not going to change 
+- No failing fast 
+- This can be improved on using prototyping in the design and requirements stage 
+
+PROTOYPING 
+Some stages can be prototyped to refine requirement 
+Throwaway - demonstrate some features and throw them away - don’t use the same stack or system you would use in the real thing
+Evolutionary - demonstrate some features, add more and the prototype morphs into the application 
+
+separation of concern - having an architecture that doesn’t mix all of the logic of different systems 
+
+THE V MODEL 
+
+Follows stages, in each of the sections there is a corresponding test for each one. Requirements = acceptance testing, specifications = system testing, high level design = integration testing 
+
+You go through each stage and then through the testing but they correspond
+
+Is very strongly linked to testing
+
+When would you use this? 
+
+- Smaller projects
+
+The pro is that there is a lot of testing 
+
+INCREMENTAL MODEL 
+
+Is a mini waterfall structure. You break up the project into smaller projects and deliver each one. Is fail fast. Testing if the part of the project that has been made makes sense in regards to the requirements when you deliver it.
+
+Pros and cons: 
+
+Pros - client has a better view 
+Cons - changes are more costly, each increment has to fit together so need the bigger picture 
+
+When would you use it? 
+
+When taking a horizontal or vertical slice across a product. The horizontal is iterative and is a whole feature but not to a high resolution. 
+
+ITERATIVE 
+Start with a high level spec and make horizontal slices
+
+AGILE 
+Focuses on delivering a working software fast 
+Iterative 
+Provides early vision 
+Accommodates customer feedback 
+Talking to the client all the time  
+
+Look up the agile manifesto 
+
+agilemanifesto.org
+
+Screenshot jira to show the user stories 
+
+Want to mention the use of daily stands up to discuss the work 
+
+Would use when the requirements are not designed at the beginning or if the client doesn’t know exactly what they want 
+
+Allows you to fail fast, working in short bursts with a common goal, saves resources 
+
+SCRUM 
+An agile development methodology (agile is a collection of guiding principles not a methodology)
+
+Iterative approach 
+Scrum roles (only three) 
+1. product owner/champion 
+2. Scrum master
+3. The team 
+Normally around 9 people in a team 
+
+the sprint:
+- iteration between 1-4 weeks (shorter preferred)
+- Time-boxed duration 
+- Fixed delivery date 
+- Delivers a potentially useable feature 
+
+Meetings: 
+- Sprint planning meeting 
+- The daily scrum 
+- Sprint review 
+- Sprint retrospective 
+
+Planning poker 
+Used to estimate 
+Done when the backlog is written 
+Those who will have the skills to complete the task do the sizing 
+Stops when a consensus is reached 
+Why fibonacci? Because If you say 1,2,3,4 It gives you a false sense of accuracy,
+
+Sprint velocity - how your story points are progressing per sprint
+
+
+Acronyms appear in the exams - the exams don’t just stick to when the specification was defined so might be questions related to current trends - learn some about devops 
+
+
+——NEED TO REVISE THE DIFFERENCE BETWEEN FUNCTIONAL AND NON FUNCTIONAL REQUIREMENTS —
+
+— NEED TO REQUIRE THE REQUIREMENTS ASSESSMENT STAGE AND WHAT IS A VALID REQUIREMENT — 
+
+
+Which of the following statements is CORRECT in relation to software testing?
+
+Testing proves the presence of defects and not the absence of defetcs in software.
+
+Which of the following activities are likely to be done in preparation for the system deployment stage? 
+- User documentation are developed.
+- Planning for end-user training.
+- Data migration. 
+
+Which one of the following would be a suitable use case for prototyping as a development methodology
+
+There is a need to clarify requirements and validation of certain functionalities
+
+Which of the following is NOT addressed by service level agreements (SLAs)?
+
+Project completion date.
+
+
+
+
