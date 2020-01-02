@@ -2,6 +2,10 @@ Pip install virtualenv
 Cd my project/
 Virtualenv venv –system-site-packages
 
+if need be, create new venv folder in repo, command line type virtualenv venv
+to activate type  source venv/bin/activate
+to decativate type  deactivate
+
 Deactivate environment
 
 Go into gitignore and add venv
@@ -40,4 +44,3 @@ Env FLASK_APP=receiver.py python3 -m flask run (all on 1 command)
 Activate virtual environment inside the correct directory
 Redo google credentials inside the virtual env 
 
-thasi1995@hotmail.co.uk
